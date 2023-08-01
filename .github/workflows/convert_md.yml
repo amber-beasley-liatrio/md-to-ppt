@@ -8,18 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: create file list
-        id: files_list
-        run: |
-          echo "Lorem ipsum" > lorem_1.md  # create two example files
-          echo "dolor sit amet" > lorem_2.md
-          mkdir output  # create output dir
-          # this will also include README.md
-          echo "files=$(printf '"%s" ' *.md)" > $GITHUB_OUTPUT
-
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=output/result.pptx ${{ steps.files_list.outputs.files }}
+          args: --output=output/result.pptx sample.md
           # --reference-doc AA_PowerPoint_Template.pptx
           
       - uses: actions/upload-artifact@v3
