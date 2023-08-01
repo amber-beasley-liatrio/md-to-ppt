@@ -19,7 +19,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --reference-doc AA_PowerPoint_Template.pptx --output=output/result.pptx ${{ steps.files_list.outputs.files }}
+          args: --output=output/result.pptx ${{ steps.files_list.outputs.files }} --reference-doc AA_PowerPoint_Template.pptx
           
       - uses: actions/upload-artifact@v3
         with:
