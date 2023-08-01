@@ -19,7 +19,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: -o AA_PowerPoint_Template.pptx --print-default-data-file reference.pptx --output=output/result.pptx ${{ steps.files_list.outputs.files }}
+          args: --print-default-data-file AA_PowerPoint_Template.pptx --output=output/result.pptx ${{ steps.files_list.outputs.files }}
           
       - uses: actions/upload-artifact@v3
         with:
