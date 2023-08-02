@@ -1,6 +1,4 @@
 # Presentation Title
-- Agenda item 1
-- Agenda item 2
 
 ## Agenda item 1
 - detail
