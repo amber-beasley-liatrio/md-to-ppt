@@ -12,8 +12,6 @@ jobs:
         id: files_list
         run: |
           mkdir output  # create output dir
-          # this will also include README.md
-          echo "files=$(printf '"%s" ' sample.md)" > $GITHUB_OUTPUT
 
       - uses: docker://pandoc/latex:2.9
         with:
