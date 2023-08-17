@@ -14,9 +14,9 @@ Guide for this md: Keep it brief; this will be converted into a powerpoint for l
 ## Overview & Progress
 * Product Vision: Ensure routes to and from the moon are accurate and available on shuttles.
 * Hangar Goals:
-  * Goal: migrate pipelines from Jenkins to GH Actions - progress: 76% :green_circle:
+  * Goal: migrate pipelines from Jenkins to GH Actions - progress: 76% 🟢
 * OKRs:
-  * Decrease time to reroute path from 1h to 30 minutes - progress: 15% :green_circle:
+  * Decrease time to reroute path from 1h to 30 minutes - progress: 15% 🔴
 
 ## Bonus Hangar Achievements
 * Increased code coverage from 80% to 90%
