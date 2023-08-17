@@ -1,5 +1,4 @@
 # State of the Hangar
-* Guide for this md. Keep it brief; this will be converted into a powerpoint for leadership to consume.
 
 ## Product Team/Squad
 * Dates of Hangar engagement: 8/1/23-10/1/23
