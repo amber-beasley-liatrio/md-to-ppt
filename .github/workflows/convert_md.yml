@@ -15,7 +15,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=output/result.pptx sample.md --reference-doc aa-hangar-template.pptx
+          args: --output=output/result.pptx sample.md
           # --reference-doc AA_PowerPoint_Template.pptx
           
       - uses: actions/upload-artifact@v3
