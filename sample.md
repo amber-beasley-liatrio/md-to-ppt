@@ -1,7 +1,7 @@
 # Presentation Title
 
 ## Agenda item 1
-- detail
+- ![50%](https://progress-bar.dev/50)
 - detail
 
 ## Agenda item 2
